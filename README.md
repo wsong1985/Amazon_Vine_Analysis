@@ -6,24 +6,63 @@
 
 ## **Results**
 
-- **How many Vine reviews and non-Vine reviews were there**
+- **How many Vine reviews and non-Vine reviews were there?**
 
-   * Urban areas had the highest numbers in Total Rides, Total Drivers, and Total Fares; Rural areas had the lowest numbers in all the studies above.
+   * The total number of Vine reviews was 1775.
+   * The total number of non-Vine reviews was 77370.
+
+  <table>
+  <tr>
+    <td>The Total Number of Vine and non-Vine Reviews</td>
+  </tr>
+  <tr>
+    <td><img src="Images/Total_Paid_&_Unpaid_Reviews.PNG" width=400></td>
+  </tr>
+  </table>
   
-  <img src="Images/Total_Rides_Drivers_&_Fares.PNG" width=300><br />
+- **How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?**
   
-   * Rural areas had the highest average fare per ride and average fare per driver; Urban areas had the lowest numbers in the studies above.
+   * The number of 5-star Vine reviews was 783.
+   * The number of 5-star non-Vine reviews was 35944.
   
-  <img src="Images/Avg_Fare_Per_Ride_&_Driver.PNG" width=500><br />
+  <table>
+  <tr>
+    <td>The Number of 5-star Vine and non-Vine Reviews</td>
+  </tr>
+  <tr>
+    <td><img src="Images/5_star_reviews_Counts.PNG" width=400></td>
+  </tr>
+  </table>
   
-   * Throughout the study of the Total Fare between January and April 2019, Urban areas had the highest total fare among the city types; Rural areas had the least total fare. Urban and Suburban areas appeared to reach their highest total fare in late February; Rural areas had reached their highest number at the end of March/the beginning of April. 
+- **What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?**
   
-  <img src="Images/PyBer_fare_summary.png" width=500><br />
+   * The percentage of 5-star Vine reviews was 0.44.
+   * The percentage of 5-star non-Vine reviews was 0.46.
+   
+  <table>
+  <tr>
+    <td>The Percentages of 5-star Vine and non-Vine Reviews</td>
+  </tr>
+  <tr>
+    <td><img src="Images/5_star_reviews_Percentages.PNG" width=400></td>
+  </tr>
+  </table>
 
 ## **Summary**
 
-- **In order to minimize the disparities among the city types, please consider the following suggestions:**
+- **Is there any positivity bias for reviews in the Vine program?**
 
-  * Increase the rate for Urban and Suburban areas.
+  * According to my study, the percentages of Vine and non-Vine 5-star reviews were extremely close. The calculation for non-Vine reviews was conducted with a large sample size, which allowed a more precise approximation for the outcome. Based on the result, there was no positivity bias for 5-star reviews in the Vine program, or the existing bias was so trivial that it could be neglected.
+
+- **Additional analysis is recommended.**
   
-  * Hire more drivers for Rural areas.
+  * Taking a step further, we can conduct a similar test for 4-star reviews to see if the result is similar to the result for 5-star reviews.
+  * Based on the result, the percentage of Vine 4-star reviews was 0.34, and the non-Vine 4-star reviews was 0.16. There is a possibe bias for 4-star reviews in the Vine program.
+  <table>
+  <tr>
+    <td>The Percentages of 4-star Vine and non-Vine Reviews</td>
+  </tr>
+  <tr>
+    <td><img src="Images/4_star_reviews_Percentages.PNG" width=400></td>
+  </tr>
+  </table>
